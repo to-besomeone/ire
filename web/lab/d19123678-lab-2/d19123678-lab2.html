@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <title>d19123678 JIWOO KIM</title>
+        <link rel = "stylesheet" id = "stylesheet" href = "creative.css">
+        <script src="cv.js"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "menu">
+                <div class="self" onlclick="move()">About</div> <!-- linked to coverletter -->
+                <div class="prj_skil">Projects & Skills</div> <!-- linked to list-->
+                <div class="edu">Education</div> <!-- linked to education -->
+
+                <a href="https://www.dit.ie">
+                    <img src="http://www.dit.ie/media/tudublin/images/TUDublin_small-01SVG.svg" width= 120px;>
+                </a>
+            </div>
+        </div>
+        <div class = "main">
+            <div class = "main_left">
+                <div class = "coverletter">
+                    <p>
+                        I'm student major computer science. I want to learn about data and Artificial Intelligence.                    </p>
+                </div>
+                <div class = "projects_skill">
+                    Projects & Skills
+                </div>
+                <div class = "list">
+                    <div class = "projects">
+                        <ol>
+                            1.Projects
+                            <ul>
+                                <li>Database Project : Hotel Management System</li>
+                                <li>Arduino Drone Project</li>
+                                <li>OpenSource Project : Web & App Development</li>
+                            </ul>
+                        </ol>
+                    </div>
+                    <div class = "skill">
+                        <ol>
+                            2. Language and Skills
+                            <ul>
+                                <li>Python</li>
+                                <li>C / C++</li>
+                                <li>Java</li>
+                                <li>Web - Flask</li>
+                                <li>some SQL languages</li>
+                                <li>AWS EC2</li>
+                                <li>Tensorflow</li>
+                            </ul>
+                        </ol>
+                    </div>
+                </div>
+        
+                <div class="education">
+                    <div class="edu-title">
+                        Education
+                    </div>
+                    <table>
+                        <tr>
+                            <th><p>Technological University Dublin</p><p class="addr">Dublin, Ireland</p></td>
+                            <td><p>Sep.2019 - June.2020</p><p class="status">3rd Attending</p></td>
+                            <td class="logo">                                
+                                <a href = "https://www.dit.ie">
+                                    <img src = "http://www.dit.ie/media/tudublin/images/TUDublin_small-01SVG.svg" alt="www.dit.ie" height=80px>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><p>Hanyang University</p><p class="addr">Ansan, South Korea</p></td>
+                            <td><p>March.2017 - Feb.2019</p><p class="status">3rd Attending</p></td>
+                            <td class="logo">
+                                <a href="https://hanyang.ac.kr">
+                                    <img src="https://www.hanyang.ac.kr/html-repositories/images/custom/common/logo.png" alt="www.hanyang.ac.kr">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><p>Changpyeong High School</p><p class="addr">Damyang, South Korea</p></td>
+                            <td><p>March.2014 - Feb.2017</p><p class="status">Graduated</p></td>
+                            <td class="logo">
+                                <a href="https://changpyeong.hs.jne.kr">
+                                    <img src="http://changpyeong.hs.jne.kr/user/changpyeong_hs/mycodyimages/logo.png" alt="www.changpyeong.hs.jne.kr">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><p>Kumho Middle School</p><p class="addr">Gwangju, South Korea</p></td>
+                            <td><p>March.2011 - Feb.2014</p><p class="status">Gradauted</p></td>
+                            <td class="logo">
+                                <a href="https://kumho.ms.kr">
+                                    <img src="http://kumho.ms.kr/data_files/images/top/logo.jpg" alt="kumho.ms.kr">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class = "main_right">
+                <div class="clock_div">
+                    <a id = "clock" onmouseover="changeColor()"></a>
+                </div>
+                <script>
+                    document.getElementById('clock').innerHTML=new Date().toLocaleTimeString();
+                    setInterval(timeup, 3000);
+                    function timeup(){
+                        var d = new Date();
+                        var time = d.toLocaleTimeString();
+                        document.getElementById('clock').innerHTML = time;
+                    }
+                </script>
+                <div class = "myphoto">
+                    <img id="myphoto" src="passport.jpg" width="180px" height="240px" alt="photo">
+                </div>
+
+                <div class = "photolist">
+                    <img class="pht" id="pht1" onclick="onphoto('pht1')" src="bel_J_ed.jpg" alt="pht1">
+
+                    <img class="pht" id="pht2" onclick="onphoto('pht2')" src="sin_J_ed.jpg" alt="pht2">
+
+                    <img class="pht" id="pht3" onclick="onphoto('pht3')" src="dal_J_ed.jpg" alt="pht3">
+
+                </div>
+    
+                <div class = "name">
+                    <h2>JIWOO KIM</h2>
+                </div>
+                <div class = "contact">
+                    <!-- email -->
+                    <p>w4kes90@gmail.com</p>
+                    <!-- phone number -->
+                    <p>083 394 4376</p>
+                </div>
+                <div class = "planguages">
+                    <!-- python -->
+                    PYTHON
+                    <!-- c/c++ -->
+                    C/C++
+                    <!-- java -->
+                    JAVA
+                </div>
+                <div class = "websites">
+                    <a href="https://www.github.com/to-besomeone"><img src="GitHub-Mark-32px.png"></a>
+                    <a href="https://www.linkedin.com/in/jiwoo-kim-50879017b/"><img src="linkedin.png" width = 32px height = 32px></a>
+                    <!-- linkedin href images-->
+                    <!-- github href images -->
+                </div>
+
+                <div class="design">
+                    <button class="button_design" onclick="design()">click for change</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="questions">
+            <div class="question">
+                Questions
+            </div>
+            <div class="Q1">
+                <p> Q1. Where Am I born ?</p>
+                <hr>
+                <button class = "button_answer" id="button_A1" onclick="answers('A1')">show answer</button> 
+                <p class="answer1" id="A1">South Korea</p>  
+            </div>
+            
+            <div class="Q2">
+                <p> Q2. What is favorite color ?</p>
+                <hr>
+                <button class = "button_answer" id="button_A2" onclick="answers('A2')">show answer</button>
+                <p class="answer2" id="A2">Black</p>
+            </div>
+            <div class="Q3">
+                
+                <p> Q3. Who is my role model ?</p>
+                <hr>
+                <button class = "button_answer" id="button_A3" onclick = "answers('A3')">show answer</button>
+                <p class="answer3" id="A3">Mother</p>
+            </div>
+        </div>
+
+        <div class="tail">
+            <div class="fst"><p><a href="https://www.hanyang.ac.kr">Home University</a></p></div>
+            <div class="snd"><p><a href="https://changpyeong.hs.jne.kr"> Changpyeong High School</a></p></div>
+            <div class="trd"><p><a href="https://kumho.ms.kr">Geumho Middle School</a></p></div>    
+        </div>
+    </body>
+</html>
